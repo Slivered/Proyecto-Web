@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <script src="https://kit.fontawesome.com/2e9856e9d4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <header class="header title">
+            <div class="top-menu">
+                <ul class="top-menu">
+                    <li class="top-menu"><a href="index.html">Home</a></li>
+                    <li class="top-menu"><a href="#news">News</a></li>
+                    <li class="top-menu"><a href="#contact">Contact</a></li>
+                    <li class="top-menu"><a href="#product">Product</a></li>
+                    <li class="top-menu"><a href="#clients">Clients</a></li>
+                </ul>         
+            </div>      
+        </header>
+        
+        <aside class="sidebar">
+            <div class="login">
+                <label for="usuario">Usuario:</label>
+                <input type="text" placeholder="Introduzca su Usuario">
+                <br>
+                <label for="contraseña">Contraseña:</label>
+                <input type="text" placeholder="Introduzca su Contraseña">
+                <input type="submit" value="Log In" class="btn-login">
+            </div>
+        </aside>
+        
+        <main class="content">
+            <div class="contact">
+                <form action="">
+                    <p>
+                        <label for="name">Name:</label>
+                        <input type="text" name="name">
+                    </p>
+                    <p>
+                        <label for="surname">Surname:</label>
+                        <input type="text" name="surname" >
+                    </p>
+                    <p>
+                        <label>Email Address:</label>
+                        <input type="email" name="email">
+                    </p>
+                    <p>
+                        <label>Phone:</label>
+                        <input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" required>
+                    </p>
+                    <p class="extend">
+                        <label>Message:</label>
+                        <textarea name ="message" rows="3"></textarea>
+                    </p>
+                    <p class="extend">
+                        <button type="submit">
+                            SEND
+                        </button>
+                    </p>
+
+                </form>
+            </div>
+        </main>
+
+        
+
+        <footer class="footer">
+            <h3>Footer</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, eum.</p>
+            <div class="icons">
+                <i class="fab fa-instagram"> </i>
+                <i class="fab fa-facebook-square"> </i>
+                <i class="fab fa-twitter-square"> </i>
+                <i class="fab fa-youtube"> </i>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
